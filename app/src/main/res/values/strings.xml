@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">YouTube Downloader</string>
+    <string name="please_paste_your_url"><i>Please paste your url</i></string>
+    <string name="about">About</string>
+    <string name="about_text">
+        In this application if you paste any proper youTube link you will get downloadable video(.mp4)
+        and audio(.mp3). After paste your link if you click <b>MP4 Converter</b> button you watch the link created video and if you
+        click on videos 3 dot get a download option.This download option helps you to download the full video(.mp4) with 360p(640X360,Videos at
+        <b>360p</b> are well-suited to smartphones and other mobile devices since they use up less data,but may appear a bit blurry on larger
+        screens.) on your phone\'s downloads folder for this reason you access this video in anywhere of your mobile.
+        Similarly to <b>MP3 Converter</b> button. But here the download option helps you to download the full audio/music(.mp3).If your mobile
+        cannot start this audio file ,please download <b>Music player</b> app from Play store and then open the audio file. You also can set the
+        audio as ringtone or alarm song. So I thing you can enjoy with this app, thank you.
+    </string>
+    <string name="no_internet">No Internet Connection</string>
+</resources>

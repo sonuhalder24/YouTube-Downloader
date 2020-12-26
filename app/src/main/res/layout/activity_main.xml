@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/please_paste_your_url"
+        android:layout_marginTop="100dp"
+        android:layout_marginHorizontal="15dp"
+        android:paddingLeft="7dp"
+        />
+
+    <Button
+        android:id="@+id/mp4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MP4 Converter"
+        android:textStyle="bold"
+        android:paddingHorizontal="5dp"
+        android:textAllCaps="false"
+        android:background="@drawable/button_background"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+
+    <Button
+        android:id="@+id/mp3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="5dp"
+        android:textStyle="bold"
+        android:text="MP3 Converter"
+        android:background="@drawable/button_background"
+        android:textAllCaps="false"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>
