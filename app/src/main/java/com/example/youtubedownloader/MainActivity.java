@@ -35,6 +35,30 @@ public class MainActivity extends AppCompatActivity {
         editText=findViewById(R.id.editText);
         mp4=findViewById(R.id.mp4);
         mp3=findViewById(R.id.mp3);
+        
+        ObjectAnimator objectAnimator=ObjectAnimator.ofPropertyValuesHolder(
+                headphone,
+                PropertyValuesHolder.ofFloat("scaleX",1.2f),
+                PropertyValuesHolder.ofFloat("scaleY",1.2f)
+        );
+        //Set Animation
+        objectAnimator.setDuration(500);
+        //set Repeat
+        objectAnimator.setRepeatCount(ValueAnimator.INFINITE);
+        //set Repeat mode
+        objectAnimator.setRepeatMode(ValueAnimator.REVERSE);
+        //Start animation
+        objectAnimator.start();
+        animateText("YouTube Downloader");
+
+
+        relativeLayout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                relativeLayout.setVisibility(View.GONE);
+                getSupportActionBar().show();
+            }
+        });
 
         mp4.setOnClickListener(new View.OnClickListener() {
             @Override
