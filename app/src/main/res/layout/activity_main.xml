@@ -7,6 +7,12 @@
     tools:context=".MainActivity">
 
 
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="@drawable/back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
@@ -42,4 +48,6 @@
         android:textAllCaps="false"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"/>
+        </LinearLayout>
+        
 </androidx.constraintlayout.widget.ConstraintLayout>
