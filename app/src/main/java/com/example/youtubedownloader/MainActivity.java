@@ -28,6 +28,10 @@ public class MainActivity extends AppCompatActivity {
         setTheme(R.style.AppTheme);
         getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
+        
+        relativeLayout=findViewById(R.id.relativeLay);
+        textView=findViewById(R.id.text_view);
+        headphone=findViewById(R.id.headphone);
         editText=findViewById(R.id.editText);
         mp4=findViewById(R.id.mp4);
         mp3=findViewById(R.id.mp3);
