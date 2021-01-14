@@ -14,6 +14,14 @@ import android.widget.EditText;
 public class MainActivity extends AppCompatActivity {
     EditText editText;
     Button mp4,mp3;
+    RelativeLayout relativeLayout;
+    TextView textView;
+    ImageView headphone;
+    CharSequence charSequence;
+    int index;
+    long delay=200;
+    Handler handler=new Handler();
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
