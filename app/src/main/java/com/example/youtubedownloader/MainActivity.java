@@ -25,6 +25,8 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setTheme(R.style.AppTheme);
+        getSupportActionBar().hide();
         setContentView(R.layout.activity_main);
         editText=findViewById(R.id.editText);
         mp4=findViewById(R.id.mp4);
