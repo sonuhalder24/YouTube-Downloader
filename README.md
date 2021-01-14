@@ -5,5 +5,5 @@ App Preview 1
 ![Preview youTube downloader](https://user-images.githubusercontent.com/66179464/104580804-bdcd8780-5683-11eb-963c-b6a201fd8ab8.gif)
 
 App Preview 2
-![alt text](https://github.com/[sonuhalder24]/[YouTube-Downloader]/blob/main/images/Preview%202.jpeg?raw=true)
+![alt text](https://github.com/[sonuhalder24]/[YouTube-Downloader]/blob/[main]/images/Preview%202.jpeg?raw=true)
 
