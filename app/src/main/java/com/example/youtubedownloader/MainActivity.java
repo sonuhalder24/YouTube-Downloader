@@ -79,6 +79,26 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    
+    Runnable runnable=new Runnable() {
+        @Override
+        public void run() {
+            textView.setText(charSequence.subSequence(0,index++));
+            if(index<=charSequence.length()){
+                //when index is equal to text length
+                //Run handler
+                handler.postDelayed(runnable,delay);
+            }
+        }
+    };
+    //Create animated text method
+    public void animateText(CharSequence cs){
+        charSequence=cs;
+        index=0;
+        textView.setText("");
+        handler.removeCallbacks(runnable);
+        handler.postDelayed(runnable,delay);
+    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
