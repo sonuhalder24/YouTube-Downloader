@@ -49,5 +49,65 @@
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"/>
         </LinearLayout>
+    
+    <RelativeLayout
+        android:id="@+id/relativeLay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/launcher">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_view"
+            android:layout_centerInParent="true"
+            android:textSize="35sp"
+            android:textColor="@android:color/white"
+            android:textStyle="bold"
+            android:text="YouTube Downloader"/>
+
+        <ImageView
+            android:layout_above="@+id/text_view"
+            android:id="@+id/img"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20sp"
+            android:src="@drawable/ic_music_note" />
+        <ImageView
+            android:layout_above="@+id/img"
+            android:id="@+id/img2"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+
+            android:layout_toRightOf="@+id/img"
+            android:layout_marginBottom="20sp"
+            android:src="@drawable/ic_music_note"
+            />
+        <ImageView
+            android:layout_above="@+id/img2"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_marginBottom="20sp"
+            android:src="@drawable/ic_music_note"
+            android:layout_toRightOf="@+id/img2" />
+        <ImageView
+            android:id="@+id/headphone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_rounded_headphones"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="30sp"
+            android:layout_marginTop="15sp"
+
+            />
+        <ImageView
+            android:id="@+id/phone"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_mp4"/>
+
+    </RelativeLayout>
         
 </androidx.constraintlayout.widget.ConstraintLayout>
