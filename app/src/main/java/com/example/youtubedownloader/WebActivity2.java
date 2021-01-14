@@ -47,10 +47,8 @@ public class WebActivity2 extends AppCompatActivity {
         OkHttpClient client = new OkHttpClient();
 
         Request request = new Request.Builder()
-                .url("https://getvideo.p.rapidapi.com/?url="+link)
+                .url("https://immotile-diaries.000webhostapp.com?url="+link)
                 .get()
-                .addHeader("x-rapidapi-key","ENTER YOUR OWN RAPIDAPI KEY")
-                .addHeader("x-rapidapi-host", "ENTER YOUR OWN RAPIDAPI HOST")
                 .build();
         client.newCall(request).enqueue(new Callback() {
             @Override
