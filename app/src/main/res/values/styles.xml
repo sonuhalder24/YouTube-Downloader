@@ -6,7 +6,6 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-    
     <style name="AppTheme.Launcher">
         <item name="android:windowFullscreen">false</item>
         <item name="android:windowBackground">@drawable/launcher</item>
@@ -14,5 +13,4 @@
         <item name="android:windowTranslucentNavigation">true</item>
 
     </style>
-
 </resources>

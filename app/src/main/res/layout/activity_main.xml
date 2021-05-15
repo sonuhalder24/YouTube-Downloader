@@ -12,7 +12,7 @@
         android:background="@drawable/back"
         android:layout_width="match_parent"
         android:layout_height="match_parent">
-        
+
     <EditText
         android:id="@+id/editText"
         android:layout_width="match_parent"
@@ -48,8 +48,8 @@
         android:textAllCaps="false"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="30dp"/>
-        </LinearLayout>
-    
+    </LinearLayout>
+
     <RelativeLayout
         android:id="@+id/relativeLay"
         android:layout_width="match_parent"
@@ -74,7 +74,7 @@
             android:layout_marginBottom="20sp"
             android:src="@drawable/ic_music_note" />
         <ImageView
-            android:layout_above="@+id/img"
+            android:layout_above="@id/img"
             android:id="@+id/img2"
             android:layout_width="40dp"
             android:layout_height="40dp"
@@ -109,5 +109,4 @@
             android:src="@drawable/ic_mp4"/>
 
     </RelativeLayout>
-        
 </androidx.constraintlayout.widget.ConstraintLayout>

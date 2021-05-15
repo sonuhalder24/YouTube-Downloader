@@ -12,5 +12,5 @@
         cannot start this audio file ,please download <b>Music player</b> app from Play store and then open the audio file. You also can set the
         audio as ringtone or alarm song. So I thing you can enjoy with this app, thank you.
     </string>
-    <string name="no_internet">No Internet Connection</string>
+    <string name="problem">Poor Internet Connection Or Anything problem occurred</string>
 </resources>
